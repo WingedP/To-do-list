@@ -1,0 +1,85 @@
+body
+{
+background-image: linear-gradient(#f77171,#fd879a);
+min-height: 100vh;
+background-repeat: no-repeat;
+}
+
+.main {
+    border: 2px rgb(199, 176, 188);
+    min-height: 620px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.title {
+    color: black;
+    font-family:'Satisfy';
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 2px solid rgb(88, 88, 88);
+    border-right: 2px solid rgb(88, 88, 88);
+    border-left: 2px solid rgb(88, 88, 88);
+    background-image: url(https://i.pinimg.com/originals/ed/30/88/ed3088e308290a9a7d77c8d14bb93a87.png);
+    background-size: 100%;
+margin-left: 200px;
+margin-right: 200px;
+padding-top: 100px;
+padding-bottom: 30px;
+
+}
+.taskinsert {
+    border-right: 2px solid rgb(88, 88, 88);
+    border-left: 2px solid rgb(88, 88, 88);
+    background-color: rgb(235, 229, 222);
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 200px;
+margin-right: 200px;    
+padding: 20px 20px;
+}
+.inputstyle {
+    width: 70%;
+    padding-left: 25px;
+}
+
+.taskboard {
+    border-right: 2px solid rgb(88, 88, 88);
+    border-left: 2px solid rgb(88, 88, 88);
+    border-bottom: 2px solid rgb(88, 88, 88);
+    background-color: rgb(235, 229, 222);
+    margin-bottom: 25px;
+    margin-left: 200px;
+margin-right: 200px;
+padding: 20px 20px;
+
+}
+
+.addButton {
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(80, 117, 196);
+    font-size: 18px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(247, 120, 158);
+
+}
+
+.itemList {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom: 1px solid rgb(226, 199, 226);
+}
+.itemListnotDone {
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-bottom: 1px solid rgb(192, 127, 152);
+}
